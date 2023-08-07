@@ -18,7 +18,7 @@ class MaxHeap:
 
 
     def heapify_down(self, i):
-        lc, rc = i * 2 + 1, i * 2 + 2
+        lc, rc = i * 2 + 1, i * 2 + 2    # lc = left child
         largestValue, largestIndex = self.arr[i], i
         if lc < self.n and self.arr[lc] > largestValue:
             largestValue, largestIndex = self.arr[lc], lc
