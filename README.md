@@ -9,3 +9,5 @@ Move to the child with which you swapped the element and repeat steps 2 and 3 un
 The goal of heapify down is to "bubble down" the element until it satisfies the heap property. This ensures that the largest element (in a max heap) or the smallest element (in a min heap) is at the root, making it efficient to access or remove the top element from the heap.
 
 The complexity of heapify down is O(log n), where n is the number of elements in the heap, as it typically goes down through the height of the binary heap
+
+#
